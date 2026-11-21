@@ -15,6 +15,7 @@ export class TagListas {
   /*boolean é padrão que fica com true ou false*/
   nome_variavel_boolean_true: boolean = true;
   nome_variavel_boolean_false: boolean = false;
+  
   /*Este é o construtor */
   constructor() {
     this.nome_variavel_string2 = 'Lucas Pinto 2';
@@ -27,10 +28,12 @@ export class TagListas {
   
     /*Chamando o método para imprimir a variável 2 */
     this.metodo_imprimir_variavel_2();
-  }
+  }// Fim do construtor.
   variavel_2: number = 20;
+  /*Criando o método para imprimir a variável 2 */
   metodo_imprimir_variavel_2() {
-    console.log("minha váriavel sendo impressa pelo metodo_imprimir_variavel_2: ", this.variavel_2);}//Fim da classe(objeto).
+    console.log("minha váriavel sendo impressa pelo metodo_imprimir_variavel_2: ", this.variavel_2);
+  }//Fim do metodo_imprimir_variavel_2.
 
 
-}
+}//Fim da classe(objeto)TagListas.
