@@ -1,1 +1,11 @@
 <p>array works!</p>
+
+<!-- Percorrendo o array no HTML -->
+<ul>
+  @for (item of this.localstrings; track $index) {
+    <li>
+      {{ item }}={{$index}}
+    </li>
+  }
+  <li></li>
+</ul>
